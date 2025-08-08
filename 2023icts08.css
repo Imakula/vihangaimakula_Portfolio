@@ -146,8 +146,7 @@ a{
 }
 
 .btn {
-    text-align:center;
-    justify-content: center;
+    
     display:inline-block;
     padding: 10px 30px;
     background: #7cf03d;
@@ -297,6 +296,7 @@ h1:hover{
     color:#7cf03d;
     
 }
+
 
 
 
