@@ -146,26 +146,49 @@ a{
 }
 
 .btn {
-    
-    display:inline-block;
+    display: inline-block;
     padding: 12px 24px;
-    background: #7cf03d;
-    border: 2px solid #7cf03d;
-    border-radius: 40px;
-    box-shadow: 0 0 10px #7cf03d;
+    background-color: #7cf03d;
     color: #1f242d;
+    font-size: 16px;
     font-weight: 600;
-    transition: 5s;
-    
-
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.btn:hover{
-    background: transparent;
+.btn:hover {
+    background-color: #6ad52f;
+    transform: translateY(-2px);
+}
+
+.btn-sci {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* space between button and icons */
+    margin-top: 20px;
+}
+
+.sci a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #7cf03d;
+    border-radius: 50%;
     color: #7cf03d;
-    box-shadow: none;
-
+    font-size: 18px;
+    transition: background 0.3s ease, color 0.3s ease;
 }
+
+.sci a:hover {
+    background: #7cf03d;
+    color: #1f242d;
+}
+
+
+
 
 .home-info .btn-sci .sci a {
 
@@ -296,6 +319,7 @@ h1:hover{
     color:#7cf03d;
     
 }
+
 
 
 
