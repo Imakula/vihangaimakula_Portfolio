@@ -158,8 +158,9 @@ a{
 }
 
 .btn:hover {
-    background-color: #6ad52f;
-    transform: translateY(-2px);
+    background:transparent;
+    color:#7cf03d;
+    box-shadow:non;
 }
 
 .btn-sci {
@@ -179,7 +180,7 @@ a{
     border-radius: 50%;
     color: #7cf03d;
     font-size: 18px;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition:5s;
 }
 
 .sci a:hover {
@@ -319,6 +320,7 @@ h1:hover{
     color:#7cf03d;
     
 }
+
 
 
 
