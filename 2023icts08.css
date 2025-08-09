@@ -169,7 +169,7 @@ a{
 
 .home-info .btn-sci .sci a {
 
-    margin-left: 20px;
+    margin-left: 0px;
     padding: 8px;
     border: 2px solid #7cf03d;
     border-radius: 50%;
@@ -296,6 +296,7 @@ h1:hover{
     color:#7cf03d;
     
 }
+
 
 
 
